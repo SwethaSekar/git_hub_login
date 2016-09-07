@@ -13,6 +13,7 @@
 		ADE70CC21D7FEA1E00012A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE70CC01D7FEA1E00012A14 /* Main.storyboard */; };
 		ADE70CC41D7FEA1E00012A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE70CC31D7FEA1E00012A14 /* Assets.xcassets */; };
 		ADE70CC71D7FEA1E00012A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE70CC51D7FEA1E00012A14 /* LaunchScreen.storyboard */; };
+		ADE70CD01D7FF87000012A14 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE70CCF1D7FF87000012A14 /* secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		ADE70CC31D7FEA1E00012A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE70CC61D7FEA1E00012A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE70CC81D7FEA1E00012A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE70CCE1D7FF87000012A14 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		ADE70CCF1D7FF87000012A14 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				ADE70CBB1D7FEA1E00012A14 /* AppDelegate.m */,
 				ADE70CBD1D7FEA1E00012A14 /* ViewController.h */,
 				ADE70CBE1D7FEA1E00012A14 /* ViewController.m */,
+				ADE70CCE1D7FF87000012A14 /* secondViewController.h */,
+				ADE70CCF1D7FF87000012A14 /* secondViewController.m */,
 				ADE70CC01D7FEA1E00012A14 /* Main.storyboard */,
 				ADE70CC31D7FEA1E00012A14 /* Assets.xcassets */,
 				ADE70CC51D7FEA1E00012A14 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE70CD01D7FF87000012A14 /* secondViewController.m in Sources */,
 				ADE70CBF1D7FEA1E00012A14 /* ViewController.m in Sources */,
 				ADE70CBC1D7FEA1E00012A14 /* AppDelegate.m in Sources */,
 				ADE70CB91D7FEA1E00012A14 /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				ADE70CCD1D7FEA1E00012A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
